@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3678901 */
+  /* Color fonts */
+  src: 
+       url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARcAAwAAAAAB6QAAAQNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIkAjJgZgAEwKh3CGDwE2AiQDHgscAAQgBYF8ByAb1AXIrjE2htYtAc1EEezrBFwwaXa7d+2/x3E3k5JRbVnPshEVh7pXIKq/ExFHwdMkO+dQhXZEJjiQAWnb8cBzuX9Xmy7Rto8FksCYGMgaNAEz6yVagvf04tIWScQtrUXZ6SzfjnJLrpMLuKsFGEl4iDjQiFokzTO7/eqyu0XcjbrW4KQkNVGupDLYgIs8cAz0a0924nL6T9gS7wLK8OdsTNqD5gZMMOqivShrg6Si21Lwa5jIBQAogCxAnzgBAwM6NBQxiRAvOwGIC2UE5pECld3sogi0+wf/Ap+neAvQ5m30jXi6MIEPPrFDmARvEBGGc4JSADHeIGQCp0DB9UiES2IHsSE4KPq/DormaYBaw3GCmKVR3yVjMWwTTmVURb4yoQsguSFanYfJ/YbPNx8DUYG/7TSuBjdUJWdlaI8mQBVIDSBnoEO4RNRgg60jSBIKQ54kryjHMgJaGrlCeWVFRXnFrnb8TVlq0bQUp5KyLDl5YiWzWwdJT5WcmiOKUZtWSSGTM6cz8yLlkhn0TDBPXkvKOLOiPYTxLFwuyRrn79ShPQqWpZHCAbIK8ick2WxuTceb9tdCySlJdiUE632lgCzLIoLCIScVkMnZuUJNqlYcqEOv7sFFYuleGFatUeQSiDeQKGMkpVmQtZQMR+oYSdkIkNPumpQnhzrBXgToS9qEKwyYy/mKu/H7m697zLNXLYC+5mjJeu+VUnz2SXF+B0pSfPenctecmHLV4vW6z6Te+FuaNV8pIUP6CGO5upLeOxG7Xx9LDacS16K7cE+YvXkf3HZ2tl9y8WBn2cwcn7DtzecRrXUpvXCrpMS8H4Kx9bCGLHsc9xVf/fz/jaJ02non0fcmn0mJGIv+V9mx1MVK+NcFlwVHfX0HhykuGy86LwRAvx5FKQAWj0Fxb711ido91VS3W5AfJj8hZ9Voqt6CwjDUsxdt0dBIsHseln5hl36QaHjB1Jeo3VVTcegIiG7Vc3o9eqr8UJvo56Je+lVaWcKqZAKWpquTgNWgZRHuYLRanYEcuCT7W6kwKhitsfhU7wyw2VbB5hYhVhl2NtHRNnYqtvYV1lF26VYWoSEWVuDnjjaPDEb4Y9yDPLLdXLPdM9wBocsj9jPF8q0mc7MaKSsTLSsbabxqToOsQy0tQ60jDXjDaMMPBmZtERpqaX3HUWtObypIIU/O+5t44vH7HrhqrzerDzHxhdpClQD/BN4Be60jCyFGTGLL+0KboMNkxqDRj9MeanjIfvQ3Tch4iS6gJh0S9aAwKQFqIbJLrWDQBA66mpCRrInsmnfFjCFUKFKnVqlzW7NEJcq0qFagkQNb9kbIS6w4iw4JajbvZaPUrNKlb09V4jibVKBTf4KmBjVSeF/+4OdEAQAA') format('woff2'),
+       url('iconfont.woff?t=1664378367297') format('woff'),
+       url('iconfont.ttf?t=1664378367297') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-geren:before {
+  content: "\e679";
+}
+
+.icon-zhanshiguize:before {
+  content: "\e60f";
+}
+
+.icon-chanpinxiangqing:before {
+  content: "\e663";
+}
+
