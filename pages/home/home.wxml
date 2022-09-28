@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<view>
+  <view class="home-container">
+    <!-- 头部区域 -->
+    <view class="top">
+      <image class="topPic" mode="aspectFill" src="/images/school.jpg"></image>
+    </view>
+
+    <!-- 核心区域 -->
+    <view class="core">
+      <!-- 个人信息部分 -->
+      <view class="above">
+        <view class="left">
+          <text class="one">任*飞</text>
+          <text class="tow">20631740233</text>
+        </view>
+        <view class="right"></view>
+      </view>
+
+      <view class="middle"></view>
+    </view>
+
+    <!-- 底部区域 -->
+    <view class="bottom">
+    </view>
+  </view>
+</view>

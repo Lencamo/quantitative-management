@@ -1,0 +1,51 @@
+/* pages/home/home.wxss */
+.home-container {
+  background-color: #89c4f5;
+  height: 100%;
+  width: 100%;
+}
+
+/* 头部图片大小 */
+.topPic {
+  display: inline-block;
+  width: 100%;
+}
+
+.core {
+  height: 700rpx;
+  background-color: white;
+  margin: 20rpx 30rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+.core .above {
+  height: 150rpx;
+  margin: 0rpx 20rpx 0rpx;
+  background-color: whitesmoke;
+  border-bottom: 2rpx gray dashed;
+
+  display: flex;
+}
+
+.core .above .left {
+  flex: 4;
+  background-color: rgb(207, 238, 160);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.core .above .left .one {
+  font-size: 50rpx;
+  margin: 20rpx 20rpx 5rpx;
+}
+.core .above .left .tow {
+  font-size: 35rpx;
+  margin: 0rpx 20rpx 20rpx;
+  color: #8690a7;
+}
+.core .above .right {
+  flex: 1;
+  background-color: rgb(223, 192, 192);
+}
