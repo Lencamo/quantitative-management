@@ -21,6 +21,17 @@
       </view>
 
       <view class="middle"></view>
+
+      <view class="under">
+        <view class="left">
+          <view class="iconfont icon-chanpinxiangqing"></view>
+          <text class="itemName">活动详情</text>
+        </view>
+        <view class="right">
+          <view class="iconfont icon-zhanshiguize"></view>
+          <text class="itemName">量化规则</text>
+        </view>
+      </view>
     </view>
 
     <!-- 底部区域 -->

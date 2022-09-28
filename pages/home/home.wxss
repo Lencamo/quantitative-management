@@ -5,21 +5,23 @@
   width: 100%;
 }
 
-/* 头部图片大小 */
+/* 1、头部图片大小 */
 .topPic {
   display: inline-block;
   width: 100%;
 }
 
 .core {
-  height: 700rpx;
+  height: 1000rpx;
   background-color: white;
   margin: 20rpx 30rpx;
   border-radius: 20rpx;
   overflow: hidden;
+
+  position: relative;
 }
 
-/* 个人信息部分 */
+/* 2、个人信息、活动详情、量化规则部分 */
 .core .above {
   height: 150rpx;
   padding: 0rpx 20rpx 0rpx;
@@ -36,7 +38,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .core .above .left .one {
   font-size: 50rpx;
   margin: 20rpx 20rpx 5rpx;
@@ -46,7 +47,11 @@
   margin: 0rpx 20rpx 20rpx;
   color: #8690a7;
 }
-.core .above .right {
+
+/* 复用 */
+.core .above .right,
+.core .under .left,
+.core .under .right {
   flex: 1;
   /* background-color: rgb(223, 192, 192); */
 
@@ -55,11 +60,33 @@
   text-align: center;
 }
 
-.core .above .right .iconfont {
+/* 复用 */
+.core .above .right .iconfont,
+.core .under .left .iconfont,
+.core .under .right .iconfont {
   font-size: 60rpx;
   margin: 30rpx 20rpx 5rpx;
 }
 .core .above .right .three {
   font-size: 28rpx;
   color: #8690a7;
+}
+
+/* 活动详情、量化规则部分 */
+.core .under {
+  height: 170rpx;
+  width: 100%;
+  background-color: whitesmoke;
+
+  display: flex;
+
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+}
+
+.core .under .left .itemName,
+.core .under .right .itemName {
+  margin: 15rpx 0rpx;
+  font-size: 30rpx;
 }
