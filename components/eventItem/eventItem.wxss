@@ -12,6 +12,8 @@
   border-top: gainsboro solid 2rpx;
 
   display: flex;
+
+  position: relative;
 }
 
 .eventItem-box .left {
@@ -66,4 +68,16 @@
   color: slategray;
 
   margin-top: 60rpx;
+}
+
+/* 活动转态 */
+.eventItem-box .eventStatus {
+  position: absolute;
+
+  top: 50rpx;
+  right: 130rpx;
+}
+
+.eventItem-box .eventStatus .iconfont {
+  font-size: 80rpx;
 }

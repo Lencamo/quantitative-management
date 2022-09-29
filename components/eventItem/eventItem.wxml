@@ -18,6 +18,11 @@
         <text class="publishDate">{{item.publishDate}}</text>
         <text class="publishTime">{{item.publishTime}}</text>
       </view>
+
+      <!-- 活动转态 -->
+      <view class="eventStatus">
+        <view class="iconfont {{item.iconStatus?'icon-yijieshu':''}}"></view>
+      </view>
     </view>
   </block>
 </view>
