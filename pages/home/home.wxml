@@ -1,41 +1,52 @@
 <!--pages/home/home.wxml-->
-<view>
-  <view class="home-container">
-    <!-- 头部区域 -->
-    <view class="top">
-      <image class="topPic" mode="aspectFill" src="/images/school.jpg"></image>
-    </view>
+<view class="home-container">
+  <!-- 1、头部图片区域 -->
+  <view class="top">
+    <image class="topPic" mode="aspectFill" src="	https://www.nynu.edu.cn/images/yifulou.jpg"></image>
+  </view>
 
-    <!-- 核心区域 -->
-    <view class="core">
-      <!-- 个人信息部分 -->
-      <view class="above">
-        <view class="left">
-          <text class="one">任*飞</text>
-          <text class="tow">20631740233</text>
-        </view>
-        <view class="right">
-          <view class="iconfont icon-geren"></view>
-          <text class="three">个人信息</text>
-        </view>
+  <!-- 2、核心功能区域 -->
+  <view class="core">
+    <!-- 个人信息部分 -->
+    <view class="above">
+      <view class="left">
+        <text class="one">任*飞</text>
+        <text class="tow">20631740233</text>
       </view>
-
-      <view class="middle"></view>
-
-      <view class="under">
-        <view class="left">
-          <view class="iconfont icon-chanpinxiangqing"></view>
-          <text class="itemName">活动详情</text>
-        </view>
-        <view class="right">
-          <view class="iconfont icon-zhanshiguize"></view>
-          <text class="itemName">量化规则</text>
-        </view>
+      <view class="right">
+        <view class="iconfont icon-geren"></view>
+        <text class="three">个人信息</text>
       </view>
     </view>
 
-    <!-- 底部区域 -->
-    <view class="bottom">
+
+    <view class="middle">
+      <view class="semester">
+        <swiperRen imgUrls="{{imgUrls}}"></swiperRen>
+      </view>
+      <button class="loginBut">登录</button>
     </view>
+
+    <!-- 活动详情、量化规则部分 -->
+    <view class="under">
+      <view class="left">
+        <view class="iconfont icon-chanpinxiangqing"></view>
+        <text class="itemName">活动详情</text>
+      </view>
+      <view class="right">
+        <view class="iconfont icon-zhanshiguize"></view>
+        <text class="itemName">量化规则</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 3、今日活动区域 -->
+  <view class="events">
+  </view>
+
+  <!-- 底部声明区域 -->
+  <view class="footer">
+    <text>河南省南阳师范学院量化查询小程序</text>
+    <text>计科2020级学生提供技术支持</text>
   </view>
 </view>

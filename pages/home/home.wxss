@@ -3,6 +3,7 @@
   background-color: #89c4f5;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 /* 1、头部图片大小 */
@@ -72,7 +73,7 @@
   color: #8690a7;
 }
 
-/* 活动详情、量化规则部分 */
+/* 活动详情、量化规则 */
 .core .under {
   height: 170rpx;
   width: 100%;
@@ -83,10 +84,48 @@
   position: absolute;
   bottom: 0rpx;
   left: 0rpx;
+
+  /* visibility: hidden; */
 }
 
 .core .under .left .itemName,
 .core .under .right .itemName {
   margin: 15rpx 0rpx;
   font-size: 30rpx;
+}
+
+/* 3、轮播图、按钮部分 */
+.core .middle .semester {
+  margin: 50rpx 0rpx 20rpx;
+}
+
+.core .middle .loginBut {
+  height: 70rpx;
+  width: 250rpx;
+  background-color: rgb(47, 47, 231);
+  color: white;
+}
+
+/* 4、今日活动展示 */
+.events {
+  height: 500rpx;
+  background-color: white;
+  margin: 20rpx 30rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+/* 5、底部声明 */
+.footer {
+  height: 120rpx;
+  padding: 40rpx 0rpx;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer text {
+  margin: 5rpx;
+  color: #eaf5fd;
 }
