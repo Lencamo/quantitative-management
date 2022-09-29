@@ -1,0 +1,6 @@
+<!--pages/demo/demo.wxml-->
+<view class="home-container">
+  <view class="events">
+    <eventItem></eventItem>
+  </view>
+</view>

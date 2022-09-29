@@ -1,0 +1,23 @@
+<!--components/eventsItem/eventItem.wxml-->
+<view>
+  <block wx:for="{{eventInfo}}" wx:key="index">
+    <view class="eventItem-box">
+      <!-- 左侧图标 -->
+      <view class="left">
+        <view class="iconfont {{item.icon}}"></view>
+      </view>
+
+      <!-- 中间内容 -->
+      <view class="center">
+        <text class="department">{{item.department}}</text>
+        <text class="title">{{item.title}}</text>
+      </view>
+
+      <!-- 右侧时间 -->
+      <view class="right">
+        <text class="publishDate">{{item.publishDate}}</text>
+        <text class="publishTime">{{item.publishTime}}</text>
+      </view>
+    </view>
+  </block>
+</view>

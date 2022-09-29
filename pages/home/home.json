@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "swiperRen": "../../components/swiperRen/swiperRen"
+    "swiperRen": "../../components/swiperRen/swiperRen",
+    "eventItem": "/components/eventItem/eventItem"
   },
   "navigationStyle": "custom"
 }

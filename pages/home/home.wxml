@@ -42,6 +42,7 @@
 
   <!-- 3、今日活动区域 -->
   <view class="events">
+    <eventItem eventInfo="{{eventInfo}}"></eventItem>
   </view>
 
   <!-- 底部声明区域 -->

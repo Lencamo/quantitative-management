@@ -1,0 +1,69 @@
+/* components/eventsItem/eventItem.wxss */
+/* 引入inconFont字体图标 */
+@import '/iconFont/iconfont.wxss';
+
+/* 经典圣杯布局 */
+.eventItem-box {
+  height: 170rpx;
+  /* background-color: rgb(222, 252, 252); */
+
+  margin: 30rpx 20rpx 0rpx;
+  border-bottom: gainsboro solid 1rpx;
+  border-top: gainsboro solid 2rpx;
+
+  display: flex;
+}
+
+.eventItem-box .left {
+  width: 150rpx;
+  /* background-color: rgb(222, 252, 252); */
+}
+
+.eventItem-box .left .iconfont {
+  font-size: 60rpx;
+  text-align: center;
+
+  margin: 35rpx 25rpx;
+  line-height: 100rpx;
+  border-radius: 75rpx;
+  background-color: gainsboro;
+}
+
+.eventItem-box .center {
+  /* width: 400rpx; */
+  flex: 10;
+  /* background-color: rgb(223, 252, 222); */
+  margin: 28rpx 0rpx;
+
+  display: flex;
+  flex-direction: column;
+}
+.eventItem-box .center .department {
+  font-size: 35rpx;
+}
+.eventItem-box .center .title {
+  font-size: 25rpx;
+  color: slategray;
+  margin: 13rpx 0rpx;
+}
+
+.eventItem-box .right {
+  flex: 5;
+  /* background-color: rgb(222, 252, 252); */
+  margin: 28rpx 0rpx;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+.eventItem-box .right .publishDate {
+  font-size: 25rpx;
+  color: slategray;
+}
+
+.eventItem-box .right .publishTime {
+  font-size: 25rpx;
+  color: slategray;
+
+  margin-top: 60rpx;
+}
