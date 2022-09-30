@@ -3,7 +3,8 @@
   "projectname": "quantitative-management",
   "setting": {
     "compileHotReLoad": false,
-    "urlCheck": false
+    "urlCheck": false,
+    "autoAudits": true
   },
   "condition": {
     "miniprogram": {
@@ -21,8 +22,16 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }
-  }
+  },
+  "libVersion": "2.26.0"
 }

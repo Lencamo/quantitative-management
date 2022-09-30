@@ -1,1 +1,12 @@
 /* components/navigateTop.wxss */
+.navigateTop-container {
+  /* height: 100rpx; */
+  width: 100%;
+  background-color: transparent;
+
+  box-sizing: border-box;
+  /* padding-top: 20px; */
+  text-align: center;
+  /* line-height: 40px; */
+  font-size: 35rpx;
+}

@@ -4,6 +4,16 @@
   height: 100%;
   width: 100%;
   overflow: hidden;
+
+  /* 导航栏组件需要 */
+  /* position: relative; */
+}
+.home-container .navigateTop {
+  /* position: absolute; */
+  position: fixed;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
 }
 
 /* 1、头部图片大小 */
@@ -98,7 +108,6 @@
 .core .middle .semester {
   margin: 50rpx 0rpx 20rpx;
 }
-
 .core .middle .loginBut {
   height: 70rpx;
   width: 250rpx;
@@ -126,7 +135,6 @@
   flex-direction: column;
   text-align: center;
 }
-
 .footer text {
   margin: 5rpx;
   color: #eaf5fd;

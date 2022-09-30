@@ -1,2 +1,4 @@
 <!--components/navigateTop.wxml-->
-<text>components/navigateTop.wxml</text>
+<view class="navigateTop-container" style="height: {{navigationBarHeight}};padding-top: {{statusBarHeight}};line-height: {{navBarHeight}};background-color:{{navBarBackgroundColor}};">
+  <text>南师量化查询</text>
+</view>

@@ -47,7 +47,17 @@ Page({
         publishTime: '9:56',
         iconStatus: 1
       }
-    ]
+    ],
+    navBarBackgroundColor: '#f5f5f5',
+    navigationBarHeight: '', // 存储状态栏和导航栏的总高度
+    paddingTop: ''
+  },
+
+  // 获取navigateTop子组件传来的数据
+  getNavigationBarHeight(e) {
+    this.setData({
+      navigationBarHeight: e.detail.value
+    })
   },
 
   /**
@@ -58,7 +68,11 @@ Page({
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady() {},
+  onReady() {
+    this.setData({
+      paddingTop: this.data.navigationBarHeight
+    })
+  },
 
   /**
    * 生命周期函数--监听页面显示

@@ -1,7 +1,13 @@
 <!--pages/home/home.wxml-->
 <view class="home-container">
+  <!-- 自定义头部导航栏 -->
+  <view class="navigateTop">
+    <navigateTop navBarBackgroundColor="{{navBarBackgroundColor}}" bind:getNavigationBarHeight="getNavigationBarHeight"></navigateTop>
+  </view>
+
+
   <!-- 1、头部图片区域 -->
-  <view class="top">
+  <view class="top" style="padding-top: {{paddingTop}};">
     <image class="topPic" mode="aspectFill" src="	https://www.nynu.edu.cn/images/yifulou.jpg"></image>
   </view>
 
