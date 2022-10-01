@@ -5,10 +5,15 @@
     <navigateTop navBarBackgroundColor="{{navBarBackgroundColor}}" bind:getNavigationBarHeight="getNavigationBarHeight"></navigateTop>
   </view>
 
-
   <!-- 1、头部图片区域 -->
   <view class="top" style="padding-top: {{paddingTop}};">
     <image class="topPic" mode="aspectFill" src="	https://www.nynu.edu.cn/images/yifulou.jpg"></image>
+  </view>
+
+  <!-- 公告栏区域 -->
+  <view class="noticeBar">
+    <!-- <noticeBar noticeMsg="{{noticeMsg}}" schoolPic="{{schoolPic}}"></noticeBar> -->
+    <noticeBar schoolPic="{{schoolPic}}" noticeMsg="{{noticeMsg}}"></noticeBar>
   </view>
 
   <!-- 2、核心功能区域 -->

@@ -5,15 +5,28 @@
   width: 100%;
   overflow: hidden;
 
-  /* 导航栏组件需要 */
-  /* position: relative; */
+  /* 导航栏组件、公告栏组件需要 */
+  position: relative;
 }
+
+/* 引入的导航栏组件 */
 .home-container .navigateTop {
   /* position: absolute; */
   position: fixed;
   z-index: 999;
   height: 100%;
   width: 100%;
+}
+
+/* 引入的公告栏组件 */
+.home-container .noticeBar {
+  /* height: 85rpx; */
+  background-color: white;
+  margin: 20rpx 30rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+
+  /* margin-top: -60rpx; bug待解决 */
 }
 
 /* 1、头部图片大小 */

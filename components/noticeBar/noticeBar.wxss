@@ -1,1 +1,47 @@
 /* components/noticeBar/noticeBar.wxss */
+.noticeBar-container {
+  width: 100%;
+  height: 85rpx;
+
+  display: flex;
+}
+
+.noticeBar-container .left {
+  padding: 20rpx;
+}
+
+.noticeBar-container .left .schoolPic {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.noticeBar-container .right {
+  overflow: hidden;
+
+  margin-right: 45rpx;
+  line-height: 85rpx;
+
+  width: 100%;
+}
+
+.noticeBar-container .right .marquee-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100%;
+
+  width: 100%;
+}
+.scroll-txt {
+  padding: 0 20rpx;
+}
+.marquee-box {
+  position: relative;
+  display: block;
+}
+.marquee-text {
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}

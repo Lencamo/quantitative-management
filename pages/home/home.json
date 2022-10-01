@@ -2,8 +2,8 @@
   "usingComponents": {
     "swiperRen": "../../components/swiperRen/swiperRen",
     "eventItem": "/components/eventItem/eventItem",
-    "navigateTop": "/components/navigateTop/navigateTop"
+    "navigateTop": "/components/navigateTop/navigateTop",
+    "noticeBar": "/components/noticeBar/noticeBar"
   },
-  "navigationStyle": "custom",
-  "onReachBottomDistance": 550
+  "navigationStyle": "custom"
 }

@@ -4,12 +4,14 @@ Page({
    * 页面的初始数据
    */
   data: {
+    // 1、轮播图
     imgUrls: [
       '../../images/one.jpg',
       '../../images/two.jpg',
       '../../images/three.jpg',
       '../../images/four.jpg'
     ],
+    // 2、活动通知
     eventInfo: [
       {
         index: 4,
@@ -48,9 +50,13 @@ Page({
         iconStatus: 1
       }
     ],
+    ///3、头部导航栏
     navBarBackgroundColor: '#f5f5f5',
     navigationBarHeight: '', // 存储状态栏和导航栏的总高度
-    paddingTop: ''
+    paddingTop: '',
+    ///4、公告栏
+    noticeMsg: '欢迎来到南阳师范学院量化查询小程序！！',
+    schoolPic: '/images/badge.png'
   },
 
   // 获取navigateTop子组件传来的数据

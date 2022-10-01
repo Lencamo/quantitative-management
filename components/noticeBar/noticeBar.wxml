@@ -1,2 +1,22 @@
 <!--components/noticeBar/noticeBar.wxml-->
-<text>components/noticeBar/noticeBar.wxml</text>
+<view class="noticeBar-container">
+  <view class="left">
+    <image class="schoolPic" src="{{schoolPic}}"></image>
+  </view>
+  <view class="right">
+    <!-- <view class="noticeItem">
+      {{noticeMsg}}
+    </view> -->
+    <scroll-view class="marquee-container" enable-flex="true">
+      <view class="scroll-txt">
+        <view class="marquee-box">
+          <view class="marquee-text" style="transform: translateX(-{{ marqueeDistance }}px)">
+            <text>{{ noticeMsg }}</text>
+            <text style="margin-right:{{ marqueeMargin }}px;"></text>
+            <text style="margin-right:{{ marqueeMargin }}px;">{{ noticeMsg }}</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
