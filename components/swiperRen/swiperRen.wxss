@@ -6,6 +6,9 @@
   background: #fff;
   height: 500rpx;
   width: 100%;
+
+  position: relative;
+  z-index: 999;
 }
 
 .swiper-item {

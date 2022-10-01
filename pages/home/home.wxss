@@ -6,7 +6,7 @@
   overflow: hidden;
 
   /* 导航栏组件、公告栏组件需要 */
-  position: relative;
+  /* position: relative; */
 }
 
 /* 引入的导航栏组件 */
@@ -16,6 +16,8 @@
   /* z-index: 999; 轮播图不能手动滑动bug修复 */
   height: 100%;
   width: 100%;
+
+  z-index: 555;
 }
 
 /* 引入的公告栏组件 */
