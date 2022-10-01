@@ -13,7 +13,7 @@
 .home-container .navigateTop {
   /* position: absolute; */
   position: fixed;
-  z-index: 999;
+  /* z-index: 999; 轮播图不能手动滑动bug修复 */
   height: 100%;
   width: 100%;
 }
