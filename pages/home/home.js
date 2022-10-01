@@ -6,10 +6,10 @@ Page({
   data: {
     // 1、轮播图
     imgUrls: [
-      '../../images/one.jpg',
-      '../../images/two.jpg',
-      '../../images/three.jpg',
-      '../../images/four.jpg'
+      'https://www.nynu.edu.cn/__local/C/2E/59/CA60ADB8FE47BA9875D19A79EA2_706A6454_2A872.jpg',
+      'https://www.nynu.edu.cn/__local/F/55/9A/8864CB08DE5921AEB74EFF4EF4B_579EDB69_28D14.jpg',
+      'https://www.nynu.edu.cn/__local/F/68/85/6CF286B8F7E13F7F588D93D8868_97843FEA_1DFD0.jpg',
+      'https://www.nynu.edu.cn/__local/0/B8/99/68C45658BDFEF213525B8917458_C3273DB0_1DD40.jpg'
     ],
     // 2、活动通知
     eventInfo: [
