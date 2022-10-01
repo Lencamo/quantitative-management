@@ -27,6 +27,8 @@
   overflow: hidden;
 
   /* margin-top: -60rpx; bug待解决 */
+  margin-top: -60rpx;
+  position: relative;
 }
 
 /* 1、头部图片大小 */
