@@ -56,13 +56,39 @@ Page({
     paddingTop: '',
     ///4、公告栏
     noticeMsg: '欢迎来到南阳师范学院量化查询小程序！！',
-    schoolPic: '/images/badge.png'
+    schoolPic: '/images/badge.png',
+
+    // 用户微信基本信息
+    nickName: '',
+    avatarUrl: ''
   },
 
   // 获取navigateTop子组件传来的数据
   getNavigationBarHeight(e) {
     this.setData({
       navigationBarHeight: e.detail.value
+    })
+  },
+
+  loginFn() {
+    // console.log(this)
+    wx.getUserProfile({
+      desc: '登录前获取用户信息',
+      success: (res) => {
+        // console.log(res.userInfo)
+        this.setData({
+          // 存储用户信息
+          nickName: res.userInfo.nickName,
+          avatarUrl: res.userInfo.avatarUrl
+        })
+
+        wx.navigateTo({
+          url: `/pages/login/login?nickName=${this.data.nickName}&avatarUrl=${this.data.avatarUrl}`
+        })
+      },
+      fail: (res) => {
+        console.log(res.errMsg)
+      }
     })
   },
 

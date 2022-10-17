@@ -1,0 +1,7 @@
+<!--pages/login/login.wxml-->
+<view>
+  <view class="userinfo">
+    <image src="{{avatarUrl}}"></image>
+    <text>{{nickName}}</text>
+  </view>
+</view>

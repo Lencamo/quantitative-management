@@ -2,7 +2,9 @@
 <view class="home-container">
   <!-- 自定义头部导航栏 -->
   <view class="navigateTop">
-    <navigateTop navBarBackgroundColor="{{navBarBackgroundColor}}" bind:getNavigationBarHeight="getNavigationBarHeight"></navigateTop>
+    <view class="title">
+      <navigateTop navBarBackgroundColor="{{navBarBackgroundColor}}" bind:getNavigationBarHeight="getNavigationBarHeight"></navigateTop>
+    </view>
   </view>
 
   <!-- 1、头部图片区域 -->
@@ -35,7 +37,7 @@
       <view class="semester">
         <swiperRen imgUrls="{{imgUrls}}"></swiperRen>
       </view>
-      <button class="loginBut">登录</button>
+      <button class="loginBut" bindtap="loginFn">登录</button>
     </view>
 
     <!-- 活动详情、量化规则部分 -->

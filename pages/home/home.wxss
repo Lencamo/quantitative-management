@@ -10,13 +10,18 @@
 }
 
 /* 引入的导航栏组件 */
-.home-container .navigateTop {
+.home-container .title {
   /* position: absolute; */
   position: fixed;
   /* z-index: 999; 轮播图不能手动滑动bug修复 */
   height: 100%;
   width: 100%;
 
+  /* z-index: 555; */
+}
+
+.home-container .title .navigateTop {
+  /* 其他部分按钮无法使用bug修复 */
   z-index: 555;
 }
 
