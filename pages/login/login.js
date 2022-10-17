@@ -6,7 +6,38 @@ Page({
   data: {
     // 用户基本信息（页面跳转而来）
     avatarUrl: '',
-    nickName: '南阳师范学院'
+    nickName: '南阳师范学院',
+
+    // 密码输入框显示
+    eyOpen: false,
+    focus: false,
+    eyeClass: 'icon-xianshikejian'
+  },
+
+  // 密码的显示与隐藏
+  switch() {
+    if (this.data.eyOpen) {
+      this.setData({
+        eyeClass: 'icon-xianshikejian'
+      })
+    } else {
+      this.setData({
+        eyeClass: 'icon-yincangbukejian'
+      })
+    }
+    this.setData({
+      eyOpen: !this.data.eyOpen
+    })
+  },
+  pwdInputFocusFn() {
+    this.setData({
+      focus: true
+    })
+  },
+  pwdInputBlurFn() {
+    this.setData({
+      focus: false
+    })
   },
 
   /**

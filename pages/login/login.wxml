@@ -17,7 +17,11 @@
   </view>
   <view class="input-box">
     <view>密码</view>
-    <input type="text" placeholder="请输入登录密码" placeholder-style="color: #e8ebf1;" />
+    <input class="pwdInput" password="{{!eyOpen}}" bindfocus="pwdInputFocusFn" bindblur="pwdInputBlurFn" type="text" placeholder="请输入登录密码" placeholder-style="color: #e8ebf1;" />
+    <!-- <view class="{{eyOpen?'icon-xianshikejian':'icon-yincangbukejian'}}" class="iconfont eyeChange" catchtap="switch" /> -->
+    <view class="eyeChange">
+      <view class="iconfont {{eyeClass}}" catchtap="switch" />
+    </view>
   </view>
 </view>
 

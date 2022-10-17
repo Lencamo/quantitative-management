@@ -36,6 +36,7 @@ page {
 
 .login-msg .input-box view {
   margin: 0rpx 50rpx;
+  margin-right: 0rpx;
   width: 200rpx;
   font-size: 30rpx;
   color: #8690a7;
@@ -47,6 +48,28 @@ page {
   width: 100%;
   font-size: 30rpx;
   border-bottom: 3rpx solid whitesmoke;
+
+  color: #2e2e2e;
+}
+
+.login-msg .input-box .pwdInput {
+  margin-right: 0rpx;
+  margin-left: 20rpx;
+}
+
+.login-msg .input-box .eyeChange {
+  height: 60rpx;
+  width: 60rpx;
+  margin: 0rpx 40rpx;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-msg .input-box .eyeChange .iconfont {
+  font-size: 60rpx;
+  margin: 0rpx !important;
 }
 
 /* 温馨提示 */
