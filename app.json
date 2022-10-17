@@ -2,8 +2,8 @@
   "pages": ["pages/home/home", "pages/login/login", "pages/demo/demo"],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Lencamo",
+    "navigationBarBackgroundColor": "#89c4f5",
+    "navigationBarTitleText": "待定",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",

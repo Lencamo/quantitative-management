@@ -5,19 +5,19 @@ Page({
    */
   data: {
     // 用户基本信息（页面跳转而来）
-    nickName: '',
-    avatarUrl: ''
+    avatarUrl: '',
+    nickName: '南阳师范学院'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    console.log(options)
+    // console.log(options)
     // 存储获取用户的基本信息
     this.setData({
-      nickName: options.nickName,
-      avatarUrl: options.avatarUrl
+      avatarUrl: options.avatarUrl,
+      nickName: options.nickName
     })
   },
 

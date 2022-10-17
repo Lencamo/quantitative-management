@@ -133,7 +133,7 @@
 .core .middle .loginBut {
   height: 70rpx;
   width: 250rpx;
-  background-color: rgb(47, 47, 231);
+  background-color: #2e2ee0;
   color: white;
 }
 

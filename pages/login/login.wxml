@@ -1,7 +1,29 @@
-<!--pages/login/login.wxml-->
-<view>
-  <view class="userinfo">
-    <image src="{{avatarUrl}}"></image>
-    <text>{{nickName}}</text>
+<!-- 用户信息区域 -->
+<view class="userinfo">
+  <!-- <image src="{{avatarUrl}}"></image> -->
+  <!-- <text>{{nickName}}</text> -->
+  <image src="https://thirdwx.qlogo.cn/mmopen/vi_32/oTibKaayyw76e3q5J2rpFibHJB5TYy4p13aGbLsXU5eLiblynsGvf0ULeib7nnGq2VppcDAWKbAZOicq1to9FSwGhFw/132"></image>
+</view>
+
+<!-- 表单填写区域 -->
+<view class="login-msg">
+  <view class="input-box">
+    <view>昵称</view>
+    <input type="text" value="{{nickName}}" />
   </view>
+  <view class="input-box">
+    <view>学号</view>
+    <input type="number" placeholder="请输入11位学号" placeholder-style="color: #e8ebf1;" />
+  </view>
+  <view class="input-box">
+    <view>密码</view>
+    <input type="text" placeholder="请输入登录密码" placeholder-style="color: #e8ebf1;" />
+  </view>
+</view>
+
+<!-- 温馨提示部分 -->
+<view class="noticeMsg"> 注意：个人账号初始密码为 nynu123456，登录后可以在主页的个人信息部分修改密码。</view>
+
+<view class="login-box">
+  <button class="loginBut">登录</button>
 </view>

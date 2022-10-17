@@ -1,1 +1,69 @@
 /* pages/login/login.wxss */
+page {
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+/* 用户信息部分 */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 0px;
+  background-color: white;
+}
+
+.userinfo image {
+  width: 220rpx;
+  height: 220rpx;
+  border-radius: 110rpx;
+}
+
+/* 表单填写部分 */
+.login-msg {
+  margin-top: 30rpx;
+  background-color: white;
+  padding: 20rpx 0rpx;
+}
+
+.login-msg .input-box {
+  height: 110rpx;
+  display: flex;
+  align-items: center;
+}
+
+.login-msg .input-box view {
+  margin: 0rpx 50rpx;
+  width: 200rpx;
+  font-size: 30rpx;
+  color: #8690a7;
+}
+
+.login-msg .input-box input {
+  padding: 30rpx 0rpx;
+  margin-right: 50rpx;
+  width: 100%;
+  font-size: 30rpx;
+  border-bottom: 3rpx solid whitesmoke;
+}
+
+/* 温馨提示 */
+.noticeMsg {
+  margin: 20rpx 50rpx;
+  font-size: 26rpx;
+  text-indent: 2em;
+  color: #8690a7;
+}
+
+.login-box {
+  margin: 80rpx 0rpx;
+}
+
+.login-box .loginBut {
+  height: 70rpx;
+  width: 550rpx;
+  background-color: #2e2ee0;
+  color: white;
+}
