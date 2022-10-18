@@ -1,0 +1,14 @@
+page {
+  background-color: whitesmoke;
+  padding: 30rpx 0rpx;
+}
+
+.eventMsg-contain {
+  background-color: white;
+  margin: 50rpx 30rpx;
+  border-radius: 15rpx;
+  padding: 20rpx;
+
+  font-size: 35rpx;
+  line-height: 60rpx;
+}

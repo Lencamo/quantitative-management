@@ -42,12 +42,13 @@
 
     <!-- 活动详情、量化规则部分 -->
     <view class="under">
-      <view class="left">
+      <view class="left" bindtap="detailJump">
         <view class="iconfont icon-chanpinxiangqing"></view>
         <text class="itemName">活动详情</text>
       </view>
-      <view class="right">
+      <view class="right" bindtap="ruleJump">
         <view class="iconfont icon-zhanshiguize"></view>
+        <!-- <text class="itemName">量化规则</text> -->
         <text class="itemName">量化规则</text>
       </view>
     </view>
@@ -55,7 +56,7 @@
 
   <!-- 3、今日活动区域 -->
   <view class="events">
-    <eventItem eventInfo="{{eventInfo}}"></eventItem>
+    <eventItem bindtap="eventJump" eventInfo="{{eventInfo}}"></eventItem>
   </view>
 
   <!-- 底部声明区域 -->

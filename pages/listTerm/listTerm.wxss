@@ -1,0 +1,26 @@
+page {
+  background-color: whitesmoke;
+  padding: 30rpx 0rpx;
+}
+.title,
+.events {
+  background-color: white;
+  margin: 20rpx 30rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+.title {
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 40rpx;
+  color: red;
+}
+
+.events {
+  /* height: 500rpx; */
+  padding-bottom: 30rpx;
+}

@@ -29,6 +29,27 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/ruleMsg/ruleMsg",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/eventMsg/eventMsg",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/listTerm/listTerm",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

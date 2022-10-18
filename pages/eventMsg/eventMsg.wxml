@@ -1,0 +1,3 @@
+<view class="eventMsg-contain">
+  <rich-text nodes="{{content}}"></rich-text>
+</view>

@@ -1,0 +1,21 @@
+/* pages/ruleMsg/ruleMsg.wxss */
+page {
+  background-color: whitesmoke;
+  padding-top: 10rpx;
+}
+
+.message {
+  background-color: white;
+  margin: 50rpx 30rpx;
+  border-radius: 15rpx;
+  padding: 20rpx;
+}
+
+.one {
+  margin: 20rpx 0rpx 50rpx;
+  font-size: 35rpx;
+}
+
+.two {
+  text-indent: 2em;
+}

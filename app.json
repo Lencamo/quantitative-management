@@ -1,5 +1,11 @@
 {
-  "pages": ["pages/home/home", "pages/login/login", "pages/demo/demo"],
+  "pages": [
+    "pages/home/home",
+    "pages/login/login",
+    "pages/ruleMsg/ruleMsg",
+    "pages/eventMsg/eventMsg",
+    "pages/listTerm/listTerm"
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#89c4f5",

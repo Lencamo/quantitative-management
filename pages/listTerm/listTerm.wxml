@@ -1,0 +1,9 @@
+<!--pages/listTerm/listTerm.wxml-->
+<view class="listTerm-container">
+  <view class="title">
+    <text>本学期活动列表</text>
+  </view>
+  <view class="events">
+    <eventItem bindtap="eventJump" eventInfo="{{eventInfo}}"></eventItem>
+  </view>
+</view>

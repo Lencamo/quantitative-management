@@ -11,18 +11,18 @@ Page({
     // 密码输入框显示
     eyOpen: false,
     focus: false,
-    eyeClass: 'icon-xianshikejian'
+    eyeClass: 'icon-yincangbukejian'
   },
 
   // 密码的显示与隐藏
   switch() {
     if (this.data.eyOpen) {
       this.setData({
-        eyeClass: 'icon-xianshikejian'
+        eyeClass: 'icon-yincangbukejian'
       })
     } else {
       this.setData({
-        eyeClass: 'icon-yincangbukejian'
+        eyeClass: 'icon-xianshikejian'
       })
     }
     this.setData({

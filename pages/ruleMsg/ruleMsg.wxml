@@ -1,0 +1,20 @@
+<!--pages/ruleMsg/ruleMsg.wxml-->
+<view class="ruleMsg-container">
+  <view class="message">
+    <view class="one">
+      （一）学业成绩（占综合测评 70%）
+    </view>
+    <view class="two">
+      综测成绩：学业成绩+量化成绩
+    </view>
+  </view>
+
+  <view class="message">
+    <view class="one">
+      （二）量化成绩（占综合测评 30%）
+    </view>
+    <view class="two">
+      计算公式为：（ 个人学年量化分 / 班级最高量化分 ）X100 X30%
+    </view>
+  </view>
+</view>
