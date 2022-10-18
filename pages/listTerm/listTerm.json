@@ -1,3 +1,4 @@
 {
-  "usingComponents": { "eventItem": "/components/eventItem/eventItem" }
+  "usingComponents": { "eventItem": "/components/eventItem/eventItem" },
+  "navigationBarTitleText": "活动详情"
 }

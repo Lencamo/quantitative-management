@@ -18,6 +18,9 @@ page {
 
   font-size: 40rpx;
   color: red;
+
+  /* background-color: #3695dd; */
+  /* color: white; */
 }
 
 .events {

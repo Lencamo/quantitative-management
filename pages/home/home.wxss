@@ -135,6 +135,8 @@
   width: 250rpx;
   background-color: #2e2ee0;
   color: white;
+
+  line-height: 70rpx;
 }
 
 /* 4、今日活动展示 */

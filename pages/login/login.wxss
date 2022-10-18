@@ -87,6 +87,8 @@ page {
 .login-box .loginBut {
   height: 70rpx;
   width: 550rpx;
-  background-color: #2e2ee0;
+  background-color: #03bd61;
   color: white;
+
+  line-height: 70rpx;
 }

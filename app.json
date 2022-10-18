@@ -5,7 +5,8 @@
     "pages/ruleMsg/ruleMsg",
     "pages/eventMsg/eventMsg",
     "pages/listTerm/listTerm",
-    "pages/setting/setting"
+    "pages/setting/setting",
+    "pages/modifyPwd/modifyPwd"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,7 +15,6 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2",
 
   "lazyCodeLoading": "requiredComponents"
 }

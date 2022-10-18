@@ -1,2 +1,45 @@
-<!--pages/setting/setting.wxml-->
-<text>pages/setting/setting.wxml</text>
+<!-- 标题区域 -->
+<view class="header">
+  <text>个人信息</text>
+</view>
+
+<!-- 信息展示区域 -->
+<view class="personal-msg">
+  <view class="input-box">
+    <view>学校</view>
+    <input type="text" value="南阳师范学院" />
+  </view>
+  <view class="input-box">
+    <view>姓名</view>
+    <input type="text" value="任洪飞" />
+  </view>
+  <view class="input-box">
+    <view>学号</view>
+    <input type="text" value="20631740233" />
+  </view>
+  <view class="input-box">
+    <view>年级</view>
+    <input type="text" value="软件20.20" />
+  </view>
+</view>
+
+<!-- 功能区域 -->
+<view class="core-box">
+  <view class="item">
+    <button class="itemBut">最近申报</button>
+    <view class="iconfont icon-jinrujiantou"></view>
+  </view>
+  <view class="item">
+    <button class="itemBut">密码修改</button>
+    <view class="iconfont icon-jinrujiantou"></view>
+  </view>
+  <view class="item">
+    <button class="itemBut" open-type="feedback">反馈建议</button>
+    <view class="iconfont icon-jinrujiantou"></view>
+  </view>
+</view>
+
+<!-- 退出登录区域 -->
+<view class="logout-box">
+  <button class="logoutBut" bindtap="logoutJump">退出登录</button>
+</view>
