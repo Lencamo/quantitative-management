@@ -29,25 +29,7 @@ Page({
         title: '暑假“返家乡”社会实践活动……',
         publishDate: '2022-09-29',
         publishTime: '15:33',
-        iconStatus: 1
-      },
-      {
-        index: 2,
-        icon: 'icon-banzuhuodong',
-        department: '#勤工部通知#',
-        title: '奖助评议小组评定……',
-        publishDate: '2022-09-23',
-        publishTime: '13:26',
-        iconStatus: 1
-      },
-      {
-        index: 1,
-        icon: 'icon-huwaihuodong',
-        department: '#志愿服务部通知#',
-        title: '2022年迎新志愿者招募……',
-        publishDate: '2022-09-23',
-        publishTime: '9:56',
-        iconStatus: 1
+        iconStatus: 0
       }
     ],
     ///3、头部导航栏
@@ -108,6 +90,12 @@ Page({
   detailJump() {
     wx.navigateTo({
       url: '/pages/listTerm/listTerm'
+    })
+  },
+  // 个人信息跳转
+  settingJump() {
+    wx.navigateTo({
+      url: '/pages/setting/setting'
     })
   },
 

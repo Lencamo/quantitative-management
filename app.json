@@ -4,7 +4,8 @@
     "pages/login/login",
     "pages/ruleMsg/ruleMsg",
     "pages/eventMsg/eventMsg",
-    "pages/listTerm/listTerm"
+    "pages/listTerm/listTerm",
+    "pages/setting/setting"
   ],
   "window": {
     "backgroundTextStyle": "light",

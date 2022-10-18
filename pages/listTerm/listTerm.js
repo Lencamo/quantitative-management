@@ -22,7 +22,7 @@ Page({
         title: '暑假“返家乡”社会实践活动……',
         publishDate: '2022-09-29',
         publishTime: '15:33',
-        iconStatus: 1
+        iconStatus: 0
       },
       {
         index: 6,
@@ -49,7 +49,7 @@ Page({
         title: '“音梦而声 心随乐动”校园歌手大赛……',
         publishDate: '2022-09-31',
         publishTime: '11:45',
-        iconStatus: 0
+        iconStatus: 1
       },
       {
         index: 3,

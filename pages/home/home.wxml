@@ -26,7 +26,7 @@
         <text class="one">任*飞</text>
         <text class="tow">20631740233</text>
       </view>
-      <view class="right">
+      <view class="right" bindtap="settingJump">
         <view class="iconfont icon-geren"></view>
         <text class="three">个人信息</text>
       </view>
@@ -63,5 +63,7 @@
   <view class="footer">
     <text>河南省南阳师范学院量化查询小程序</text>
     <text>计科2020级学生提供技术支持</text>
+    <text>前端：计科20.20任洪飞</text>
+    <text>后端：计科20.21万一鸣</text>
   </view>
 </view>

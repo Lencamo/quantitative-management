@@ -150,7 +150,7 @@
 
 /* 5、底部声明 */
 .footer {
-  height: 120rpx;
+  height: 180rpx;
   padding: 40rpx 0rpx;
 
   display: flex;
