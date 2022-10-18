@@ -1,2 +1,22 @@
-<!--pages/modifyPwd/modifyPwd.wxml-->
-<text>pages/modifyPwd/modifyPwd.wxml</text>
+<!-- 表单填写区域 -->
+<view class="login-msg">
+  <view class="input-box">
+    <view>旧密码</view>
+    <input type="password" placeholder="请输入登录密码" placeholder-style="color: #e8ebf1;" />
+  </view>
+  <view class="input-box">
+    <view>新密码</view>
+    <input class="pwdInput" password="{{!eyOpen}}" bindfocus="pwdInputFocusFn" bindblur="pwdInputBlurFn" type="text" placeholder="请设置新的登录密码" placeholder-style="color: #e8ebf1;" />
+    <!-- <view class="{{eyOpen?'icon-xianshikejian':'icon-yincangbukejian'}}" class="iconfont eyeChange" catchtap="switch" /> -->
+    <view class="eyeChange">
+      <view class="iconfont {{eyeClass}}" catchtap="switch" />
+    </view>
+  </view>
+</view>
+
+<!-- 温馨提示部分 -->
+<view class="noticeMsg"> 注意：个人账号初始密码为 nynu123456，登录后可以在主页的个人信息部分修改密码。</view>
+
+<view class="login-box">
+  <button class="loginBut" bindtap="modifyJump">修改密码</button>
+</view>

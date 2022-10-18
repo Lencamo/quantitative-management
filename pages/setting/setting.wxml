@@ -30,7 +30,7 @@
     <view class="iconfont icon-jinrujiantou"></view>
   </view>
   <view class="item">
-    <button class="itemBut">密码修改</button>
+    <button class="itemBut" bindtap="modifyJump">密码修改</button>
     <view class="iconfont icon-jinrujiantou"></view>
   </view>
   <view class="item">
