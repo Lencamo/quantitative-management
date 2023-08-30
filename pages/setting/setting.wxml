@@ -11,15 +11,15 @@
   </view>
   <view class="input-box">
     <view>姓名</view>
-    <input type="text" value="任洪飞" />
+    <input type="text" value="彭于晏" />
   </view>
   <view class="input-box">
     <view>学号</view>
-    <input type="text" value="20631740233" />
+    <input type="text" value="20832750243" />
   </view>
   <view class="input-box">
     <view>年级</view>
-    <input type="text" value="软件20.20" />
+    <input type="text" value="软件20.11" />
   </view>
 </view>
 

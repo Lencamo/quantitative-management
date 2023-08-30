@@ -23,8 +23,8 @@
     <!-- 个人信息部分 -->
     <view class="above">
       <view class="left">
-        <text class="one">任*飞</text>
-        <text class="tow">20631740233</text>
+        <text class="one">彭*晏</text>
+        <text class="tow">20832750243</text>
       </view>
       <view class="right" bindtap="settingJump">
         <view class="iconfont icon-geren"></view>
@@ -63,7 +63,7 @@
   <view class="footer">
     <text>河南省南阳师范学院量化查询小程序</text>
     <text>计科2020级学生提供技术支持</text>
-    <text>前端：计科20.20任洪飞</text>
-    <text>后端：计科20.21万一鸣</text>
+    <text>前端：计科20.20 任**</text>
+    <text>后端：计科20.21 万**</text>
   </view>
 </view>
